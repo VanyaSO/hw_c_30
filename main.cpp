@@ -34,6 +34,7 @@ int main()
         newArr[i]->Show();
     }
 
+    delete[] newArr;
 
 
 
