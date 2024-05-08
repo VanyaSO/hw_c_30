@@ -18,7 +18,6 @@ protected:
 public:
     Shape() = default;
     Shape(string type): _type(type) {};
-    virtual ~Shape() {};
     virtual void Show() const = 0;
     virtual void Save() const = 0;
 };

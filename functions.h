@@ -1,6 +1,6 @@
 #ifndef HW_C_30_FUNCTIONS_H
 #define HW_C_30_FUNCTIONS_H
-#include "./Shapes/Shape/Shape.h"
+#include "Shapes/Shape/Shape.h"
 template<typename T>
 void addObj(Shape**& arr, int& size, T* obj)
 {

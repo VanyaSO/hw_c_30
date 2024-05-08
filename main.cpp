@@ -20,7 +20,9 @@ int main()
 
     for (int i = 0; i < N; ++i) {
         arr[i]->Save();
+        delete arr[i];
     }
+
 
     int size = 0;
     Shape** newArr = nullptr;
@@ -34,6 +36,9 @@ int main()
         newArr[i]->Show();
     }
 
+    for (int i = 0; i < size; ++i) {
+        delete newArr[i];
+    }
     delete[] newArr;
 
 
